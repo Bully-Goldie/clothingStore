@@ -46,14 +46,125 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="controlMenu\admin\controlDB.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlMenu\admin\controlDB.Designer.cs">
+      <DependentUpon>controlDB.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controlMenu\admin\controlOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlMenu\admin\controlOrders.Designer.cs">
+      <DependentUpon>controlOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controlMenu\admin\controlProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlMenu\admin\controlProduct.Designer.cs">
+      <DependentUpon>controlProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controlMenu\admin\controlWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlMenu\admin\controlWorker.Designer.cs">
+      <DependentUpon>controlWorker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controlMenu\manager\controlProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlMenu\manager\controlProduct.Designer.cs">
+      <DependentUpon>controlProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controlMenu\manager\controlWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlMenu\manager\controlWorker.Designer.cs">
+      <DependentUpon>controlWorker.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controlMenu\manager\viewOrders.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlMenu\manager\viewOrders.Designer.cs">
+      <DependentUpon>viewOrders.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controlMenu\seller\orderProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlMenu\seller\orderProduct.Designer.cs">
+      <DependentUpon>orderProduct.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controlMenu\seller\viewProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlMenu\seller\viewProduct.Designer.cs">
+      <DependentUpon>viewProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
+    <Compile Include="mainMenu\admin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainMenu\admin.Designer.cs">
+      <DependentUpon>admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainMenu\manager.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainMenu\manager.Designer.cs">
+      <DependentUpon>manager.cs</DependentUpon>
+    </Compile>
+    <Compile Include="mainMenu\seller.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="mainMenu\seller.Designer.cs">
+      <DependentUpon>seller.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="controlMenu\admin\controlDB.resx">
+      <DependentUpon>controlDB.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlMenu\admin\controlOrders.resx">
+      <DependentUpon>controlOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlMenu\admin\controlProduct.resx">
+      <DependentUpon>controlProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlMenu\admin\controlWorker.resx">
+      <DependentUpon>controlWorker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlMenu\manager\controlProduct.resx">
+      <DependentUpon>controlProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlMenu\manager\controlWorker.resx">
+      <DependentUpon>controlWorker.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlMenu\manager\viewOrders.resx">
+      <DependentUpon>viewOrders.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlMenu\seller\orderProduct.resx">
+      <DependentUpon>orderProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlMenu\seller\viewProduct.resx">
+      <DependentUpon>viewProduct.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainMenu\admin.resx">
+      <DependentUpon>admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainMenu\manager.resx">
+      <DependentUpon>manager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="mainMenu\seller.resx">
+      <DependentUpon>seller.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -76,5 +187,6 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
