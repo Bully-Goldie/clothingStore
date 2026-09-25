@@ -10,16 +10,11 @@ using System.Windows.Forms;
 
 namespace clothing_store
 {
-    public partial class MainMenu : Form
+    public partial class captcha : Form
     {
-        public MainMenu()
+        public captcha()
         {
             InitializeComponent();
-        }
-
-        private void mainMenu_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

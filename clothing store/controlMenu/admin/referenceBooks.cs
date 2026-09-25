@@ -8,18 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace clothing_store
+namespace clothing_store.controlMenu.admin
 {
-    public partial class MainMenu : Form
+    public partial class referenceBooks : Form
     {
-        public MainMenu()
+        public referenceBooks()
         {
             InitializeComponent();
-        }
-
-        private void mainMenu_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

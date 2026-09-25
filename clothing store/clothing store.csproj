@@ -52,17 +52,35 @@
     <Compile Include="controlMenu\admin\controlDB.Designer.cs">
       <DependentUpon>controlDB.cs</DependentUpon>
     </Compile>
-    <Compile Include="controlMenu\admin\controlOrders.cs">
+    <Compile Include="controlMenu\admin\refBooks\brand.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="controlMenu\admin\controlOrders.Designer.cs">
-      <DependentUpon>controlOrders.cs</DependentUpon>
+    <Compile Include="controlMenu\admin\refBooks\brand.Designer.cs">
+      <DependentUpon>brand.cs</DependentUpon>
     </Compile>
-    <Compile Include="controlMenu\admin\controlProduct.cs">
+    <Compile Include="controlMenu\admin\refBooks\category.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="controlMenu\admin\controlProduct.Designer.cs">
-      <DependentUpon>controlProduct.cs</DependentUpon>
+    <Compile Include="controlMenu\admin\refBooks\category.Designer.cs">
+      <DependentUpon>category.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controlMenu\admin\refBooks\discount.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlMenu\admin\refBooks\discount.Designer.cs">
+      <DependentUpon>discount.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controlMenu\admin\refBooks\users.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlMenu\admin\refBooks\users.Designer.cs">
+      <DependentUpon>users.cs</DependentUpon>
+    </Compile>
+    <Compile Include="controlMenu\admin\referenceBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlMenu\admin\referenceBooks.Designer.cs">
+      <DependentUpon>referenceBooks.cs</DependentUpon>
     </Compile>
     <Compile Include="controlMenu\admin\controlWorker.cs">
       <SubType>Form</SubType>
@@ -70,17 +88,17 @@
     <Compile Include="controlMenu\admin\controlWorker.Designer.cs">
       <DependentUpon>controlWorker.cs</DependentUpon>
     </Compile>
+    <Compile Include="controlMenu\manager\addProduct.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="controlMenu\manager\addProduct.Designer.cs">
+      <DependentUpon>addProduct.cs</DependentUpon>
+    </Compile>
     <Compile Include="controlMenu\manager\controlProduct.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="controlMenu\manager\controlProduct.Designer.cs">
       <DependentUpon>controlProduct.cs</DependentUpon>
-    </Compile>
-    <Compile Include="controlMenu\manager\controlWorker.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="controlMenu\manager\controlWorker.Designer.cs">
-      <DependentUpon>controlWorker.cs</DependentUpon>
     </Compile>
     <Compile Include="controlMenu\manager\viewOrders.cs">
       <SubType>Form</SubType>
@@ -129,20 +147,29 @@
     <EmbeddedResource Include="controlMenu\admin\controlDB.resx">
       <DependentUpon>controlDB.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="controlMenu\admin\controlOrders.resx">
-      <DependentUpon>controlOrders.cs</DependentUpon>
+    <EmbeddedResource Include="controlMenu\admin\refBooks\brand.resx">
+      <DependentUpon>brand.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="controlMenu\admin\controlProduct.resx">
-      <DependentUpon>controlProduct.cs</DependentUpon>
+    <EmbeddedResource Include="controlMenu\admin\refBooks\category.resx">
+      <DependentUpon>category.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlMenu\admin\refBooks\discount.resx">
+      <DependentUpon>discount.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlMenu\admin\refBooks\users.resx">
+      <DependentUpon>users.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="controlMenu\admin\referenceBooks.resx">
+      <DependentUpon>referenceBooks.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="controlMenu\admin\controlWorker.resx">
       <DependentUpon>controlWorker.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="controlMenu\manager\addProduct.resx">
+      <DependentUpon>addProduct.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="controlMenu\manager\controlProduct.resx">
       <DependentUpon>controlProduct.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="controlMenu\manager\controlWorker.resx">
-      <DependentUpon>controlWorker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="controlMenu\manager\viewOrders.resx">
       <DependentUpon>viewOrders.cs</DependentUpon>

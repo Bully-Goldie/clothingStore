@@ -16,7 +16,7 @@ namespace clothing_store
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new mainMenu());
+            Application.Run(new MainMenu());
         }
     }
 }

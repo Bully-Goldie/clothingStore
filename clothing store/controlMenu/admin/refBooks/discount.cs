@@ -8,11 +8,11 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace clothing_store.controlMenu.manager
+namespace clothing_store.controlMenu.admin.refBooks
 {
-    public partial class controlWorker : Form
+    public partial class discount : Form
     {
-        public controlWorker()
+        public discount()
         {
             InitializeComponent();
         }
