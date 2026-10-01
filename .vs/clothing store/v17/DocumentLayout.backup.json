@@ -3,8 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\user\\Desktop\\kichigin\\clothing store\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{38AF2FF4-4919-4D1A-A71D-35543F2CC8A0}|clothing store\\clothing store.csproj|c:\\users\\user\\desktop\\kichigin\\clothing store\\clothing store\\controlmenu\\seller\\viewproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{38AF2FF4-4919-4D1A-A71D-35543F2CC8A0}|clothing store\\clothing store.csproj|solutionrelative:clothing store\\controlmenu\\seller\\viewproduct.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{38AF2FF4-4919-4D1A-A71D-35543F2CC8A0}|clothing store\\clothing store.csproj|c:\\users\\user\\desktop\\kichigin\\clothing store\\clothing store\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{38AF2FF4-4919-4D1A-A71D-35543F2CC8A0}|clothing store\\clothing store.csproj|solutionrelative:clothing store\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{38AF2FF4-4919-4D1A-A71D-35543F2CC8A0}|clothing store\\clothing store.csproj|c:\\users\\user\\desktop\\kichigin\\clothing store\\clothing store\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{38AF2FF4-4919-4D1A-A71D-35543F2CC8A0}|clothing store\\clothing store.csproj|solutionrelative:clothing store\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -19,13 +23,26 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "viewProduct.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "DocumentMoniker": "C:\\Users\\user\\Desktop\\kichigin\\clothing store\\clothing store\\controlMenu\\seller\\viewProduct.cs",
-              "RelativeDocumentMoniker": "clothing store\\controlMenu\\seller\\viewProduct.cs",
-              "ToolTip": "C:\\Users\\user\\Desktop\\kichigin\\clothing store\\clothing store\\controlMenu\\seller\\viewProduct.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
-              "RelativeToolTip": "clothing store\\controlMenu\\seller\\viewProduct.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Title": "Form1.cs",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\kichigin\\clothing store\\clothing store\\Form1.cs",
+              "RelativeDocumentMoniker": "clothing store\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\kichigin\\clothing store\\clothing store\\Form1.cs",
+              "RelativeToolTip": "clothing store\\Form1.cs",
+              "ViewState": "AgIAADYAAAAAAAAAAAAnwFEAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-09-06T18:08:42.932Z",
+              "WhenOpened": "2026-10-01T15:57:33.978Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "DocumentMoniker": "C:\\Users\\user\\Desktop\\kichigin\\clothing store\\clothing store\\Form1.cs",
+              "RelativeDocumentMoniker": "clothing store\\Form1.cs",
+              "ToolTip": "C:\\Users\\user\\Desktop\\kichigin\\clothing store\\clothing store\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "RelativeToolTip": "clothing store\\Form1.cs [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-10-01T15:57:31.941Z",
               "EditorCaption": " [\u041A\u043E\u043D\u0441\u0442\u0440\u0443\u043A\u0442\u043E\u0440]"
             }
           ]

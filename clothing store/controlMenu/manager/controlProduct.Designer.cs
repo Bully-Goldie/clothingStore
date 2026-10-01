@@ -66,6 +66,7 @@ namespace clothing_store.controlMenu.manager
             this.button1.TabIndex = 22;
             this.button1.Text = "Назад";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // comboBox4
             // 
@@ -141,6 +142,7 @@ namespace clothing_store.controlMenu.manager
             this.button3.TabIndex = 24;
             this.button3.Text = "Добавить товар";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // controlProduct
             // 

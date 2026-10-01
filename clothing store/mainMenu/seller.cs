@@ -1,4 +1,5 @@
-﻿using System;
+﻿using clothing_store.controlMenu.seller;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -15,6 +16,27 @@ namespace clothing_store.mainMenu
         public seller()
         {
             InitializeComponent();
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            orderProduct orderProduct = new orderProduct();
+            this.Visible = false;
+            orderProduct.ShowDialog();
+            this.Visible = true;
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            viewProduct viewProduct = new viewProduct();
+            this.Visible = false;
+            viewProduct.ShowDialog();
+            this.Visible = true;
         }
     }
 }
